@@ -1,0 +1,132 @@
+@media screen and (max-width: 992px) {
+    .corpo-paginas {
+        width: 95% !important;
+        font-size: .75em;
+
+        padding-top: 10vw !important;
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+    }
+
+    h1 {
+        font-size: 2.5em !important;
+    }
+
+    .table td {
+        padding: 10px !important;
+        margin: 0px !important;
+    }
+
+    .footer-paginas {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .corpo-paginas .regulamento, .corpo-paginas .titulo {
+        padding-left: 6vw !important;
+        padding-right: 4vw !important;
+    }
+}
+
+.header-paginas {
+    height: 100px;
+    width: 100%;
+    background-color: var(--dark-color);
+}
+
+.body-paginas {
+    background-color: rgba(202, 202, 202, 0.75);
+}
+
+.corpo-paginas {
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 4vw 7vw;
+
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 10px 0px var(--dark-color);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.footer-paginas {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.regulamento li{
+    list-style: decimal;
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: -.005em;
+}
+
+/* TITULO */
+.titulo {
+    color: #08088A;
+}
+  
+.titulo h1 {
+    font-size: 3.75em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.titulo span {
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+/* TÍTULO DOS LIVROS */
+
+.tituloLivro {
+    font-family: oswald, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.575em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0;
+    vertical-align: center;
+}
+
+.tituloLivro3linhas {
+    font-family: oswald, sans-serif;
+    font-size: 1.438em;
+    font-weight: 700;
+    line-height: 1.575em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0;
+    vertical-align: center;
+}
+
+.conteudo {
+    height: 12em;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.card {
+    margin-bottom: 15%;
+}
+
+.card-img-top {
+    height: 24.8em;
+}
+
+.card-body {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
