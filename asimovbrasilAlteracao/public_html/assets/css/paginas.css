@@ -29,18 +29,21 @@
 
     /* TITULO */
     .titulo {
-        color: #08088A;
+        color: #000000;;
     }
       
     .titulo h1 {
+        font-family: open sans;
         font-size: 3.75em;
         font-weight: 700;
         line-height: 1;
     }
 
     .titulo span {
+        font-family: arial;
         font-size: 0.875em;
         font-style: italic;
+        color: #08088A;
     }
 
     /* TÍTULO DOS LIVROS */
