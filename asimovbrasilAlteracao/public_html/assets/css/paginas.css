@@ -26,107 +26,230 @@
         padding-left: 6vw !important;
         padding-right: 4vw !important;
     }
-}
 
-.header-paginas {
-    height: 100px;
-    width: 100%;
-    background-color: var(--dark-color);
-}
+    /* TITULO */
+    .titulo {
+        color: #08088A;
+    }
+      
+    .titulo h1 {
+        font-size: 3.75em;
+        font-weight: 700;
+        line-height: 1;
+    }
 
-.body-paginas {
-    background-color: rgba(202, 202, 202, 0.75);
-}
+    .titulo span {
+        font-size: 0.875em;
+        font-style: italic;
+    }
 
-.corpo-paginas {
-    
-    width: 80%;
-    margin: 0 auto;
-    padding: 4vw 7vw;
+    /* TÍTULO DOS LIVROS */
 
-    background-color: var(--white-color);
-    box-shadow: 0px 0px 10px 0px var(--dark-color);
+    .tituloLivro {
+        font-family: oswald, sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.575em;
+        text-transform: uppercase;
+        text-align: left;
+        letter-spacing: 0;
+        vertical-align: center;
+    }
 
-    display: flex;
-    align-items: flex-start;
-    justify-content: stretch;
-    text-align: justify;
-    flex-direction: column;
-}
+    .tituloLivro:hover {
+        color: #3F4095;
+    }
 
-.footer-paginas {
-    height: 100px;
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-.regulamento li{
-    list-style: decimal;
-    font-size: 1.2em;
-    line-height: 1.6;
-    letter-spacing: -.005em;
-}
-
-/* TITULO */
-.titulo {
-    color: #08088A;
-}
-  
-.titulo h1 {
-    font-size: 3.75em;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.titulo span {
-    font-size: 0.875em;
-    font-style: italic;
-}
-
-/* TÍTULO DOS LIVROS */
-
-.tituloLivro {
+    .tituloLivro3linhas {
     font-family: oswald, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.313em;
     font-weight: 700;
     line-height: 1.575em;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 0;
     vertical-align: center;
-}
+    }
 
-.tituloLivro3linhas {
-    font-family: oswald, sans-serif;
-    font-size: 1.438em;
-    font-weight: 700;
-    line-height: 1.575em;
-    text-transform: uppercase;
-    text-align: left;
-    letter-spacing: 0;
-    vertical-align: center;
-}
+    .tituloLivro3linhas:hover {
+        color: #3F4095;
+    }
 
-.conteudo {
-    height: 12em;
-    display: flex !important;
-    align-items: center !important;
-}
+    .conteudo {
+        height: 14em;
+        display: flex !important;
+        align-items: center !important;
+        word-wrap: break-word;
+    }
 
-.card {
-    margin-bottom: 15%;
-}
+    .card {
+        margin-bottom: 15%;
+    }
 
-.card-img-top {
-    height: 24.8em;
-}
+    .card-img-top {
+        height: 24.8em;
+    }
 
-.card-body {
+    .card-body {
+    padding-left: 1em;
+    padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-paginas {
+        height: 100px;
+        width: 100%;
+        background-color: var(--dark-color);
+    }
+
+    .body-paginas {
+        background-color: rgba(202, 202, 202, 0.75);
+    }
+
+    .corpo-paginas {
+        
+        width: 80%;
+        margin: 0 auto;
+        padding: 4vw 7vw;
+
+        background-color: var(--white-color);
+        box-shadow: 0px 0px 10px 0px var(--dark-color);
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: stretch;
+        text-align: justify;
+        flex-direction: column;
+    }
+
+    .footer-paginas {
+        height: 100px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .regulamento li{
+        list-style: decimal;
+        font-size: 1.2em;
+        line-height: 1.6;
+        letter-spacing: -.005em;
+    }
+
+    /* TITULO */
+    .titulo {
+        color: #000000;
+    }
+      
+    .titulo h1 {
+        font-family: open sans;
+        font-size: 3.75em;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .titulo span {
+        font-family: arial;
+        font-size: 0.875em;
+        font-style: italic;
+        color: #08088A;
+    }
+
+    /* TÍTULO DOS LIVROS */
+
+    .tituloLivro {
+        font-family: oswald, sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.575em;
+        text-transform: uppercase;
+        text-align: left;
+        letter-spacing: 0;
+        vertical-align: center;
+    }
+
+    .tituloLivro:hover {
+        color: #3F4095;
+    }
+
+    .tituloLivro3linhas {
+        font-family: oswald, sans-serif;
+        font-size: 1.438em;
+        font-weight: 700;
+        line-height: 1.575em;
+        text-transform: uppercase;
+        text-align: left;
+        letter-spacing: 0;
+        vertical-align: center;
+    }
+
+    .tituloLivro3linhas:hover {
+        color: #3F4095;
+    }
+
+    .conteudo {
+        height: 12em;
+        display: flex !important;
+        align-items: center !important;
+        word-wrap: break-word;
+    }
+
+    .card {
+        margin-bottom: 15%;
+    }
+
+    .card-img-top {
+        height: 24.8em;
+    }
+
+    .card-body {
+        padding-left: 1em;
+        padding-right: 1em;        
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+}
+
+.modal-title {
+        font-family: oswald, sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.575em;
+        text-transform: uppercase;
+        text-align: left;
+        letter-spacing: 0;
+        vertical-align: center;
+        padding-right: 2em;
+}
+
+.modal-content {
+    color: white !important;
+    margin-bottom: 3 !important;
+    background-color: #343a40 !important;
+    border-color: #2c3136 !important;
+}
+
+.modal-header {
+    border-color: #2c3136 !important;
+}
+
+.linkLivro {
+    color: #3F4095;
+}
+
+.linkLivro:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.close {
+    color: white !important;
+    background-color: #343a40 !important;
 }
