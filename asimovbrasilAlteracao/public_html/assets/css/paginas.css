@@ -90,7 +90,7 @@
     }
 
     .card-img-top {
-        height: 24.8em;
+        height: 22.8em;
     }
 
     .card-body {
@@ -229,22 +229,25 @@
         text-align: left;
         letter-spacing: 0;
         vertical-align: center;
-        padding-right: 2em;
+        padding-right: 4em;
 }
 
 .modal-content {
-    color: white !important;
     margin-bottom: 3 !important;
-    background-color: #343a40 !important;
-    border-color: #2c3136 !important;
-}
-
-.modal-header {
-    border-color: #2c3136 !important;
+    border-color: #d2d3d3 !important;
 }
 
 .linkLivro {
     color: #3F4095;
+}
+
+.modal-header {
+    background-color: #f0f1f2 !important;
+    border-color: #d2d3d3 !important;
+}
+
+.modal-body {
+    text-align: justify;
 }
 
 .linkLivro:hover {
@@ -253,6 +256,13 @@
 }
 
 .close {
-    color: white !important;
-    background-color: #343a40 !important;
+    background-color: #f0f1f2 !important;
+}
+
+.mini-img {
+    height: 12.4em;
+    width: auto;
+    float: left;
+    clear: right;
+    margin-right: 1.33em;    
 }
