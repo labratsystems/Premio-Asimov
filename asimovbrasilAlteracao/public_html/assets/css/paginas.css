@@ -90,7 +90,7 @@
     }
 
     .card-img-top {
-        height: 22.8em;
+        height: 20.8em;
     }
 
     .card-body {
@@ -246,10 +246,6 @@
     border-color: #d2d3d3 !important;
 }
 
-.modal-body {
-    text-align: justify;
-}
-
 .linkLivro:hover {
     text-decoration: underline;
     font-weight: bolder;
@@ -265,4 +261,8 @@
     float: left;
     clear: right;
     margin-right: 1.33em;    
+}
+
+.tooltip-test {
+    text-align: left !important;
 }
