@@ -90,7 +90,7 @@
     }
 
     .card-img-top {
-        height: 22.8em;
+        height: 20.8em;
     }
 
     .card-body {
@@ -265,4 +265,8 @@
     float: left;
     clear: right;
     margin-right: 1.33em;    
+}
+
+.tooltip-test {
+    text-align: left !important;
 }
