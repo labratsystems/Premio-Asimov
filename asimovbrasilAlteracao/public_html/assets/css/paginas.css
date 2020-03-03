@@ -260,7 +260,8 @@
     width: auto;
     float: left;
     clear: right;
-    margin-right: 1.33em;    
+    margin-right: 1.33em;
+    margin-bottom: 1.33em;
 }
 
 .tooltip-test {
