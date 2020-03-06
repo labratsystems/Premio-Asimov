@@ -99,6 +99,16 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     }
+
+    .formulario {
+    margin-left: 2.17em !important;
+    margin-bottom: 6.66em !important;
+    }
+
+    #btnFormulario {
+        margin-top: 0.66em; 
+        float: right;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -116,13 +126,13 @@
         
         width: 80%;
         margin: 0 auto;
-        padding: 4vw 7vw;
+        padding: 4vw 7vw 4vw 7vw;
 
         background-color: var(--white-color);
         box-shadow: 0px 0px 10px 0px var(--dark-color);
 
         display: flex;
-        align-items: flex-start;
+        /*align-items: flex-start;*/
         justify-content: stretch;
         text-align: justify;
         flex-direction: column;
@@ -218,6 +228,15 @@
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
+
+    .formulario {
+        width: 50%;
+    }
+
+    #btnFormulario {
+        margin-top: 0.66em; 
+        float: right;
+    }
 }
 
 .modal-title {
@@ -260,9 +279,17 @@
     width: auto;
     float: left;
     clear: right;
-    margin-right: 1.33em;
+    margin-right: 0.66em;
 }
 
 .tooltip-test {
     text-align: left !important;
+}
+
+label {
+    margin-top: 0.33em;
+}
+
+option:first {
+    color: #999;
 }
